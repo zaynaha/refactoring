@@ -8,8 +8,9 @@ import java.util.Map;
  * This class generates a statement for a given invoice of performances.
  */
 public class StatementPrinter {
-    private final Invoice invoice;
     private static Map<String, Play> plays;
+    private final Invoice invoice;
+
 
     public StatementPrinter(Invoice invoice, Map<String, Play> plays) {
         this.invoice = invoice;
@@ -48,7 +49,7 @@ public class StatementPrinter {
     private int getTotalVolumeCredits() {
         int result = 0;
         for (Performance performance : invoice.getPerformances()) {
-            result += getVolumeCredits(performance, result);
+            result += getVolumeCredits(performance);
         }
         return result;
     }
@@ -57,8 +58,8 @@ public class StatementPrinter {
         return NumberFormat.getCurrencyInstance(Locale.US).format(totalAmount / Constants.PERCENT_FACTOR);
     }
 
-    private static int getVolumeCredits(Performance performance, int result) {
-        result = 0;
+    private static int getVolumeCredits(Performance performance) {
+        int result = 0;
         // add volume credits
         result += Math.max(performance.getAudience() - Constants.BASE_VOLUME_CREDIT_THRESHOLD, 0);
         // add extra credit for every five comedy attendees
