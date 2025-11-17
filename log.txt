@@ -1,0 +1,4 @@
+Zaynahs-MacBook-Air:refactoring zaynahahmer$ git log --oneline
+b87afda (HEAD -> main) Task 1.1
+c7a44d8 Task 1.1 checkstyle theatre files
+540daca (origin/main, origin/HEAD) Initial commit
