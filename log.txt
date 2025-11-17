@@ -1,3 +1,4 @@
+6297841 (HEAD -> main) Task 2.3: Removing the `frmt` Variable
 5be3e4b (HEAD -> main) Task 2.2: Extracting Volume Credits
 230dd78 (HEAD -> main) Task 2.1 Update your `log.txt` file and commit your changes
 e9df89b (HEAD -> main) Task 2.1: Extracting the `switch` statement logic
