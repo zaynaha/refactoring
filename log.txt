@@ -1,3 +1,4 @@
+5be3e4b (HEAD -> main) Task 2.2: Extracting Volume Credits
 230dd78 (HEAD -> main) Task 2.1 Update your `log.txt` file and commit your changes
 e9df89b (HEAD -> main) Task 2.1: Extracting the `switch` statement logic
 7ad1d42 Task 1.2 Commit my changes to log.txt
