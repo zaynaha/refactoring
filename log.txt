@@ -1,4 +1,5 @@
-Zaynahs-MacBook-Air:refactoring zaynahahmer$ git log --oneline
+e9df89b (HEAD -> main) Task 2.1: Extracting the `switch` statement logic
+7ad1d42 Task 1.2 Commit my changes to log.txt
 b87afda (HEAD -> main) Task 1.1
 c7a44d8 Task 1.1 checkstyle theatre files
 540daca (origin/main, origin/HEAD) Initial commit
